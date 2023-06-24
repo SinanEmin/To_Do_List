@@ -1,0 +1,68 @@
+.headbar{
+    background-color: rgb(248, 136, 7);
+}
+.headbar img{
+    background-color: white;
+}
+.gridbar{
+    display:grid;
+    place-items: center;
+}
+.buttonbar .btn{
+    height: 2.4rem;
+    width:7rem;
+}
+.headbar h3{
+    color: white;
+}
+.headbar input{
+    width: 70%;
+    height: 40px;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+.headbar input::placeholder{
+    padding-left:25px;
+}
+
+.tasks {
+    margin-top: 5rem;
+}
+
+ ul li{
+    display: flex;
+    list-style: none;
+    font-size: 22px;
+    margin-top: 2rem;
+    background-color: #c0bebe;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-family: sans-serif;
+ }
+
+ul {
+    margin: 0 20rem;
+}
+
+ ul li span {
+    margin-left: auto;
+    top: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: black;
+    border-radius: 5px;
+}
+ ul li span:hover {
+    background-color: rgb(139, 137, 137);
+    cursor: pointer;
+ }
+
+ .checked:not(span) { 
+    text-decoration: line-through;
+ }

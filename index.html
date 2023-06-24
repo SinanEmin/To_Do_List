@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <!----------- headbar start ----------->
+        <div class="headbar p-3">
+            <div class="gridbar">
+                <img class="m-3" src="images/main-logo.png" alt="kodluyoruz-logo">
+                <h3>Yapılacaklar Listesi</h3>
+            </div>
+            <div class="buttonbar d-flex align-items-center justify-content-center">
+                <input class="mx-2" placeholder="Bugün ne yapacaksın?" type="text" id="input">
+                <button class="btn btn-secondary btn-sm" type="button" id="addButton">Ekle</button>
+            </div>
+        </div>
+            
+        <div class="tasks" id="tasks">
+            <ul id="taskList">
+               <li></li>
+            </ul>
+        </div>
+    <!----------- headbar end ----------->
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
